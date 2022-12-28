@@ -26,9 +26,9 @@ string[] FillArray(string[] array)
     return result;
 }
 
-void PrintArray(string[] array)
+void PrintArray(string[] NewArray)
 {
-    foreach (string el in array)
+    foreach (string el in NewArray)
         Console.Write($"{el}  ");
     Console.WriteLine();
 }
